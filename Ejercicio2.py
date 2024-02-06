@@ -8,3 +8,4 @@ precio_descuento = precio-(precio * descuento)
 total_con_descuento = precio_descuento * cantidad
 total_con_iva = total_con_descuento + (total_con_descuento * iva)
 
+total = total_con_descuento + total_con_iva
